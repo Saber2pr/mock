@@ -1,0 +1,35 @@
+{
+  "name": "@saber2pr/mock",
+  "version": "0.0.1",
+  "description": "> mock server.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/-saber2pr-mock.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "bin": "./lib/index.js",
+  "scripts": {
+    "test": "jest src/test/**/*",
+    "start": "tsc --watch"
+  },
+  "keywords": [
+    "mock",
+    "server"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@saber2pr/koa": "^0.1.0",
+    "@saber2pr/koa-router": "0.0.7",
+    "@saber2pr/node": "^0.1.7"
+  }
+}
