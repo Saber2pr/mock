@@ -60,8 +60,7 @@ npm install
 ```bash
 npm start
 
-npm run dev
-
+npm test
 ```
 
 > Author: saber2pr
