@@ -12,7 +12,9 @@
     "lib/core/*",
     "lib/index.*"
   ],
-  "bin": "./lib/index.js",
+  "bin": {
+    "smock": "./lib/index.js"
+  },
   "scripts": {
     "test": "jest src/test/**/*",
     "start": "tsc --watch"
