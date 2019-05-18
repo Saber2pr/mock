@@ -1,5 +1,7 @@
 # @saber2pr/mock
 
+[![npm](https://img.shields.io/npm/v/@saber2pr/mock.svg?color=blue)](https://www.npmjs.com/package/@saber2pr/mock)
+
 > mock server.
 
 ```bash
@@ -19,6 +21,8 @@ smock # http://localhost:2333
 # smock <port>, like:
 smock 3000 # http://localhost:3000
 
+# quick start
+npx @saber2pr/mock
 ```
 
 ### in you workspace root must has a mock.json file:
