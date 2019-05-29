@@ -9,7 +9,7 @@
 npm install @saber2pr/mock -g
 
 # from github
-git clone https://github.com/Saber2pr/-saber2pr-mock.git
+git clone https://github.com/Saber2pr/mock.git
 ```
 
 # Usage

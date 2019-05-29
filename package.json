@@ -4,7 +4,7 @@
   "description": "> mock server.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saber2pr/-saber2pr-mock.git"
+    "url": "git+https://github.com/Saber2pr/mock.git"
   },
   "author": "saber2pr",
   "license": "ISC",
