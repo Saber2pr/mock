@@ -17,14 +17,16 @@
   },
   "scripts": {
     "test": "jest src/test/**/*",
-    "start": "tsc --watch"
+    "start": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
   },
   "keywords": [
     "mock",
     "server"
   ],
   "devDependencies": {
-    "typescript": "^3.4.3"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@saber2pr/koa": "^0.1.0",
