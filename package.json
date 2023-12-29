@@ -24,14 +24,11 @@
     "server"
   ],
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
     "typescript": "^3.4.3"
   },
   "dependencies": {
     "@saber2pr/koa": "^0.1.0",
     "@saber2pr/koa-router": "0.0.7",
-    "@saber2pr/node": "^0.1.7"
+    "@saber2pr/node": "^0.3.2"
   }
 }
